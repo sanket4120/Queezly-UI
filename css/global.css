@@ -7,15 +7,29 @@ body {
   color: var(--font-color);
 }
 
-.btn {
-  border-radius: 0;
-}
-
-.navbar-item a:hover {
+.navbar-item a:not(.btn a):hover {
   color: var(--primary);
 }
 
 .active {
   color: var(--primary);
   border-bottom: 2px var(--primary) solid;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+}
+
+/* Card */
+
+.overlay {
+  z-index: 0;
 }
