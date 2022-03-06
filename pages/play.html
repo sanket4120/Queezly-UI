@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://modulo.netlify.app/css/main.css" />
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/play.css" />
+    <title>Queezly | Play</title>
+  </head>
+  <body class="scrollbar">
+    <header class="border-bottom">
+      <nav class="navbar container txt-center">
+        <div class="navbar-brand">
+          <div class="nav-item">
+            <h3><a href="../index.html">Queezly</a></h3>
+          </div>
+        </div>
+        <ul class="navbar-menu" id="sidemenu">
+          <li class="navbar-item">
+            <a href="../index.html">Home</a>
+          </li>
+          <li class="navbar-item active">
+            <a href="./category.html">Categories</a>
+          </li>
+          <li class="navbar-item btn btn-outline-primary">
+            <a href="#">Login</a>
+          </li>
+        </ul>
+        <div
+          class="navbar-toggler navbar-item"
+          id="navbar-toggler"
+          data-toggle="#sidemenu"
+        >
+          <i class="fa-solid fa-bars icon"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container my-6">
+      <div class="flex justify-content-between align-items-start mb-6">
+        <h1 class="flex-grow-1">The React Quizz!</h1>
+        <button class="btn btn-primary rounded-full">
+          <i class="fa-regular fa-clock mr-1"></i> 13:20
+        </button>
+      </div>
+
+      <section class="txt-center">
+        <div class="border border-primary rounded py-6 px-2 mb-3 relative">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum,
+            provident?
+          </p>
+
+          <span class="btn btn-primary rounded-full current-question">
+            2 / 10
+          </span>
+        </div>
+
+        <ul class="list-unstyled my-3">
+          <li class="list-item my-1">
+            <input type="radio" class="hide" id="ans1" name="ans" />
+            <label
+              class="label fw-normal w-100 border border-primary rounded px-2 py-2 option"
+              for="ans1"
+              >Lorem ipsum dolor, sit amet consectetur.</label
+            >
+          </li>
+
+          <li class="list-item my-1">
+            <input type="radio" class="hide" id="ans2" name="ans" />
+            <label
+              class="label fw-normal w-100 border border-primary bg-primary rounded px-2 py-2 option"
+              for="ans2"
+              >Lorem ipsum dolor, sit amet consectetur.</label
+            >
+          </li>
+
+          <li class="list-item my-1">
+            <input type="radio" class="hide" id="ans3" name="ans" />
+            <label
+              class="label fw-normal w-100 border border-primary rounded px-2 py-2 option"
+              for="ans3"
+              >Lorem ipsum dolor, sit amet consectetur.</label
+            >
+          </li>
+
+          <li class="list-item my-1">
+            <input type="radio" class="hide" id="ans4" name="ans" />
+            <label
+              class="label fw-normal w-100 border border-primary rounded px-2 py-2 option"
+              for="ans4"
+              >Lorem ipsum dolor, sit amet consectetur.</label
+            >
+          </li>
+        </ul>
+
+        <div class="flex justify-content-between">
+          <button class="btn btn-secondary">
+            <i class="fa-solid fa-caret-left"></i> Previous
+          </button>
+          <button class="btn btn-secondary">Submit Quiz</button>
+          <button class="btn btn-primary">
+            Next <i class="fa-solid fa-caret-right"></i>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://modulo.netlify.app/js/main.js"></script>
+  </body>
+</html>

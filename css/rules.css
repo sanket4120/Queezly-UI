@@ -1,0 +1,8 @@
+.rules {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.rules-container {
+  max-width: 40rem;
+}
