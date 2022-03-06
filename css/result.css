@@ -1,0 +1,5 @@
+.result {
+  max-width: 40rem;
+  list-style-type: decimal;
+  list-style-position: inside;
+}
