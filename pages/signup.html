@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://modulo.netlify.app/css/main.css" />
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/auth.css" />
+    <title>Queezly | Signup</title>
+  </head>
+  <body class="scrollbar">
+    <header class="border-bottom">
+      <nav class="navbar container txt-center">
+        <div class="navbar-brand">
+          <div class="nav-item">
+            <h3><a href="../index.html">Queezly</a></h3>
+          </div>
+        </div>
+        <ul class="navbar-menu" id="sidemenu">
+          <li class="navbar-item">
+            <a href="../index.html">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="./category.html">Categories</a>
+          </li>
+          <li class="navbar-item btn btn-outline-primary">
+            <a href="./login.html">Login</a>
+          </li>
+        </ul>
+        <div
+          class="navbar-toggler navbar-item"
+          id="navbar-toggler"
+          data-toggle="#sidemenu"
+        >
+          <i class="fa-solid fa-bars icon"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container auth-container py-6">
+      <form>
+        <div class="mb-3 grid gap-1">
+          <div class="col-6">
+            <label for="firstname" class="label">First Name</label>
+            <input type="text" class="input" id="firstname" />
+          </div>
+          <div class="col-6">
+            <label for="lastname" class="label">Last Name</label>
+            <input type="text" class="input" id="lastname" />
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="username" class="label">Email</label>
+          <input type="email" class="input" id="username" />
+        </div>
+        <div class="mb-3">
+          <label for="password" class="label">Password</label>
+          <input type="password" class="input" id="password" />
+        </div>
+        <div class="mb-3">
+          <label for="password2" class="label">Confirm Password</label>
+          <input type="password" class="input" id="password2" />
+        </div>
+
+        <div class="mb-3">
+          <button class="btn btn-primary w-100">Sign Up</button>
+        </div>
+
+        <p class="txt-center">
+          Already have an account?
+          <a href="./login.html" class="txt-underline">Log In</a>
+        </p>
+      </form>
+    </main>
+
+    <script src="https://modulo.netlify.app/js/main.js"></script>
+  </body>
+</html>
